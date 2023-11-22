@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 402905213781316701}
   - component: {fileID: 5223561124894672180}
   - component: {fileID: -5171853368450956344}
+  - component: {fileID: 9192777837180465875}
   m_Layer: 0
   m_Name: Marte
   m_TagString: Untagged
@@ -119,3 +120,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedRotation: 3
+--- !u!114 &9192777837180465875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3169376378477124495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b52a43ab0bfded4e807384e70ecb08e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetOrbit: {fileID: 0}
+  speedTraslation: 5

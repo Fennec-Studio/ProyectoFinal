@@ -281,6 +281,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 36.831, y: 0, z: 0}
+--- !u!4 &1538751192 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4626778641554368842, guid: a1610234b09b6f54998628c7ac887ea0, type: 3}
+  m_PrefabInstance: {fileID: 6117684020475599985}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1544830915
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,6 +430,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9192777837180465875, guid: 6323493ae89d4924ab0d651f18d53858, type: 3}
+      propertyPath: planetOrbit
+      value: 
+      objectReference: {fileID: 1538751192}
+    - target: {fileID: 9192777837180465875, guid: 6323493ae89d4924ab0d651f18d53858, type: 3}
+      propertyPath: speedTraslation
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -441,6 +454,14 @@ PrefabInstance:
     - target: {fileID: 1020387605752411043, guid: bdaa03fe115bbf24db7a922cebabaeb4, type: 3}
       propertyPath: m_Name
       value: Mercurio
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459031621087610891, guid: bdaa03fe115bbf24db7a922cebabaeb4, type: 3}
+      propertyPath: planetOrbit
+      value: 
+      objectReference: {fileID: 1538751192}
+    - target: {fileID: 4459031621087610891, guid: bdaa03fe115bbf24db7a922cebabaeb4, type: 3}
+      propertyPath: speedTraslation
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 5729834307437201899, guid: bdaa03fe115bbf24db7a922cebabaeb4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -509,7 +530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2591018439686873485, guid: 10d256929bd4e97479925d9e40cba17a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 60
+      value: -60
       objectReference: {fileID: 0}
     - target: {fileID: 2591018439686873485, guid: 10d256929bd4e97479925d9e40cba17a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -539,6 +560,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3929048125406991308, guid: 10d256929bd4e97479925d9e40cba17a, type: 3}
+      propertyPath: planetOrbit
+      value: 
+      objectReference: {fileID: 1538751192}
+    - target: {fileID: 3929048125406991308, guid: 10d256929bd4e97479925d9e40cba17a, type: 3}
+      propertyPath: speedTraslation
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -562,7 +591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2100648607562582276, guid: cb79c2798d5b11e4ea31d4e835915da4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 150
+      value: -150
       objectReference: {fileID: 0}
     - target: {fileID: 2100648607562582276, guid: cb79c2798d5b11e4ea31d4e835915da4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -595,6 +624,14 @@ PrefabInstance:
     - target: {fileID: 4051161779301240631, guid: cb79c2798d5b11e4ea31d4e835915da4, type: 3}
       propertyPath: m_Name
       value: Urano
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517912311416769280, guid: cb79c2798d5b11e4ea31d4e835915da4, type: 3}
+      propertyPath: planetOrbit
+      value: 
+      objectReference: {fileID: 1538751192}
+    - target: {fileID: 8517912311416769280, guid: cb79c2798d5b11e4ea31d4e835915da4, type: 3}
+      propertyPath: speedTraslation
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -680,7 +717,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5415184800225663034, guid: 09e7e18e1e791bc4ab8210caa593d5ae, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 100
+      value: -100
       objectReference: {fileID: 0}
     - target: {fileID: 5415184800225663034, guid: 09e7e18e1e791bc4ab8210caa593d5ae, type: 3}
       propertyPath: m_LocalRotation.w
@@ -710,6 +747,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5687657165419926490, guid: 09e7e18e1e791bc4ab8210caa593d5ae, type: 3}
+      propertyPath: planetOrbit
+      value: 
+      objectReference: {fileID: 1538751192}
+    - target: {fileID: 5687657165419926490, guid: 09e7e18e1e791bc4ab8210caa593d5ae, type: 3}
+      propertyPath: speedTraslation
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -726,6 +771,14 @@ PrefabInstance:
     - target: {fileID: 1860490821001582505, guid: 01c95dc14c581d2409ee486fa00be74d, type: 3}
       propertyPath: m_Name
       value: Neptuno
+      objectReference: {fileID: 0}
+    - target: {fileID: 4314541614777638197, guid: 01c95dc14c581d2409ee486fa00be74d, type: 3}
+      propertyPath: planetOrbit
+      value: 
+      objectReference: {fileID: 1538751192}
+    - target: {fileID: 4314541614777638197, guid: 01c95dc14c581d2409ee486fa00be74d, type: 3}
+      propertyPath: speedTraslation
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8156256289387994331, guid: 01c95dc14c581d2409ee486fa00be74d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -824,6 +877,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8657996925422054446, guid: 96576e9b217fee24481468a2990c1172, type: 3}
+      propertyPath: planetOrbit
+      value: 
+      objectReference: {fileID: 1538751192}
+    - target: {fileID: 8657996925422054446, guid: 96576e9b217fee24481468a2990c1172, type: 3}
+      propertyPath: speedTraslation
+      value: 24
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -840,6 +901,14 @@ PrefabInstance:
     - target: {fileID: 1709213660058633697, guid: 14ab5e05923d2644ebdfdf9487cdd800, type: 3}
       propertyPath: m_Name
       value: Saturno
+      objectReference: {fileID: 0}
+    - target: {fileID: 3115194686190101379, guid: 14ab5e05923d2644ebdfdf9487cdd800, type: 3}
+      propertyPath: planetOrbit
+      value: 
+      objectReference: {fileID: 1538751192}
+    - target: {fileID: 3115194686190101379, guid: 14ab5e05923d2644ebdfdf9487cdd800, type: 3}
+      propertyPath: speedTraslation
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4404945961608199001, guid: 14ab5e05923d2644ebdfdf9487cdd800, type: 3}
       propertyPath: m_LocalPosition.x

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2262437765722097857}
   - component: {fileID: 2800046369625128769}
   - component: {fileID: -210755390857007269}
+  - component: {fileID: 3929048125406991308}
   m_Layer: 0
   m_Name: Tierra
   m_TagString: Untagged
@@ -119,3 +120,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedRotation: 3
+--- !u!114 &3929048125406991308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710887516357583364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b52a43ab0bfded4e807384e70ecb08e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetOrbit: {fileID: 0}
+  speedTraslation: 10

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5945015243391328055}
   - component: {fileID: 2559578948840568561}
   - component: {fileID: 195879726313436287}
+  - component: {fileID: 4459031621087610891}
   m_Layer: 0
   m_Name: Mercurio
   m_TagString: Untagged
@@ -119,3 +120,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedRotation: 3
+--- !u!114 &4459031621087610891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020387605752411043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b52a43ab0bfded4e807384e70ecb08e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetOrbit: {fileID: 0}
+  speedTraslation: 10
