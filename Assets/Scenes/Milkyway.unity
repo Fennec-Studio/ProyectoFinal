@@ -291,15 +291,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4909462377842622118, guid: 4ab2fc4928ff37746b26b549008cd60d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4909462377842622118, guid: 4ab2fc4928ff37746b26b549008cd60d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4909462377842622118, guid: 4ab2fc4928ff37746b26b549008cd60d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4909462377842622118, guid: 4ab2fc4928ff37746b26b549008cd60d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -376,6 +376,7 @@ GameObject:
   - component: {fileID: 1544830918}
   - component: {fileID: 1544830917}
   - component: {fileID: 1544830916}
+  - component: {fileID: 1544830919}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: Untagged
@@ -423,7 +424,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.01
-  far clip plane: 2000
+  far clip plane: 5000
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -450,13 +451,31 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1544830915}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0029874737, y: 0.02278273, z: 0.00026901814, w: 0.999736}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.022132397, y: 0.49772024, z: 3.0358887}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1671846689}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1544830919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544830915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bce5abdb944d947a1fea916b8c1416, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horizontalSpeed: 2
+  verticalSpeed: 2
+  maxYRotation: 90
+  minYRotation: -90
+  maxXRotation: 60
+  minXRotation: -60
 --- !u!1 &1671846688 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8112921285308865003, guid: 4ab2fc4928ff37746b26b549008cd60d, type: 3}
@@ -476,12 +495,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1671846688}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ea923f768499ae41bc9c11b1f1d951f, type: 3}
+  m_Script: {fileID: 11500000, guid: 883f61eb07d66bc44bdc008a45e15c66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
-  rotationSpeed: 40
-  cockpitCamera: {fileID: 1544830917}
+  forwardSpeed: 5
+  verticalRotationSpeed: 50
+  rollSpeed: 50
 --- !u!1001 &3543507104038013771
 PrefabInstance:
   m_ObjectHideFlags: 0
