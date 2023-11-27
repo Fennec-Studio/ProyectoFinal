@@ -7,9 +7,11 @@ public class ShuttleMovement : MonoBehaviour
     [SerializeField] float forwardSpeed = 1.0f;
     [SerializeField] float verticalRotationSpeed = 50.0f;
     [SerializeField] float rollSpeed = 100.0f;
+    [SerializeField] AudioSource shuttleEngine;
 
     void Start()
     {
+        shuttleEngine.Play();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
@@ -18,12 +20,13 @@ public class ShuttleMovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftShift))
         {
-           transform.Translate(Vector3.forward * forwardSpeed * 20 * Time.deltaTime);
+            transform.Translate(Vector3.forward * forwardSpeed * 20 * Time.deltaTime);
+            shuttleEngine.pitch = 1.2f;
         } else
         {
             transform.Translate(Vector3.forward * forwardSpeed * Time.deltaTime);
+            shuttleEngine.pitch = 1.0f;
         }
-        //transform.Translate(Vector3.forward * forwardSpeed * Time.deltaTime);
         float verticalInput = Input.GetAxis("Vertical");
         float verticalRotation = verticalInput * verticalRotationSpeed * Time.deltaTime;
         transform.Rotate(verticalRotation, 0, 0);
