@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ShuttleMovement : MonoBehaviour
 {
@@ -33,5 +34,13 @@ public class ShuttleMovement : MonoBehaviour
         float rollInput = Input.GetAxis("Horizontal");
         float rollAmount = rollInput * rollSpeed * Time.deltaTime;
         transform.Rotate(0, 0, -rollAmount);
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Collision"))
+        {
+            SceneManager.LoadScene(8);
+        }
     }
 }
