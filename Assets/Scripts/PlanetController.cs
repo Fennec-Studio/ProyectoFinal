@@ -60,42 +60,42 @@ public class PlanetController : MonoBehaviour
                 if (planeta.name == "Mercurio")
                 {
                     Debug.Log("Entrando a Mercurio");
-                    SceneManager.LoadScene(0);
+                    SceneManager.LoadScene("Mercury");
                 }
                 else if (planeta.name == "Venus")
                 {
                     Debug.Log("Entrando a Venus");
-                    SceneManager.LoadScene(1);
+                    SceneManager.LoadScene("Venus");
                 }
                 else if (planeta.name == "Tierra")
                 {
                     Debug.Log("Entrando a Tierra");
-                    SceneManager.LoadScene(2);
+                    SceneManager.LoadScene("Earth");
                 }
                 else if (planeta.name == "Marte")
                 {
                     Debug.Log("Entrando a Marte");
-                    SceneManager.LoadScene(3);
+                    SceneManager.LoadScene("Mars");
                 }
                 else if (planeta.name == "Jupiter")
                 {
                     Debug.Log("Entrando a Jupiter");
-                    SceneManager.LoadScene(4);
+                    SceneManager.LoadScene("Jupiter");
                 }
                 else if (planeta.name == "Saturno")
                 {
                     Debug.Log("Entrando a Saturno");
-                    SceneManager.LoadScene(5);
+                    SceneManager.LoadScene("Saturn");
                 }
                 else if (planeta.name == "Urano")
                 {
                     Debug.Log("Entrando a Urano");
-                    SceneManager.LoadScene(6);
+                    SceneManager.LoadScene("Uranus");
                 }
                 else if (planeta.name == "Neptuno")
                 {
                     Debug.Log("Entrando a Neptuno");
-                    SceneManager.LoadScene(7);
+                    SceneManager.LoadScene("Neptune");
                 }
             }
             else if (Input.GetKeyDown(KeyCode.G))
