@@ -40,7 +40,7 @@ public class ShuttleMovement : MonoBehaviour
     {
         if (other.CompareTag("Collision"))
         {
-            SceneManager.LoadScene(8);
+            SceneManager.LoadScene("GameOver");
         }
     }
 }
